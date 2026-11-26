@@ -1,0 +1,51 @@
+# Print each element on a new line using a for loop.
+
+a = [1,2,3,4,5,6,7,8,9]
+
+i = 1
+
+for x in a:
+  print(i)
+  i += 1
+
+
+# Find the sum of all numerical elements using a loop.
+
+a = [1,2,3,4,5,6,7,8,9]
+i = 0
+for x in a:
+  i = i+x
+print(i)
+
+# Find the largest number 
+a = [1,2,33,43,54,45,654,78907,3453,22343]
+largest = a[0]
+for x in a:
+  if x > a[0]:
+   largest = x 
+print(largest)
+  
+
+# Count how many times a specific element appears using a loop.
+
+numbers = [1,2,3,3,3,4,5,5,5,6,6,6,6,7,8,787,89,786,786,0,0,2]
+user = int(input("Enter a number:"))
+i = 0
+for x in numbers:
+ if x == user:
+   i += 1
+print(user, "is", i, "times")
+
+
+
+# Create a new list containing squares of all numbers from an existing list.
+a = [1,2,3,4,5,6,67,8,9]
+b = []
+for x in a:
+ b.append(x**2)
+print(b)
+
+
+
+
+
